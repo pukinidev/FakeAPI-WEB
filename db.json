@@ -1,9 +1,44 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "proyectos": [
+    {
+      "id": 1,
+      "nombre_proyecto": "proyecto_1"
+    },
+    {
+      "id": 2,
+      "nombre_proyecto": "proyecto_2"
+    },
+    {
+      "id": 3,
+      "nombre_proyecto": "proyecto_3"
+    },
+    {
+      "id": 4,
+      "nombre_proyecto": "proyecto_4"
+    },
+    {
+      "id": 5,
+      "nombre_proyecto": "proyecto_5"
+    },
+    {
+      "id": 6,
+      "nombre_proyecto": "proyecto_6"
+    },
+    {
+      "id": 7,
+      "nombre_proyecto": "proyecto_7"
+    },
+    {
+      "id": 8,
+      "nombre_proyecto": "proyecto_8"
+    },
+    {
+      "id": 9,
+      "nombre_proyecto": "proyecto_9"
+    },
+    {
+      "id": 10,
+      "nombre_proyecto": "proyecto_10"
+    }
+  ]
 }
