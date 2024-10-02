@@ -1,7 +1,7 @@
 const jsonServer = require('json-server')
 
 const server = jsonServer.create()
-s
+
 
 const fs = require('fs')
 const path = require('path')
