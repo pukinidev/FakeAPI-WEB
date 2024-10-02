@@ -15,8 +15,12 @@ server.use(middlewares)
 
 server.use(jsonServer.rewriter({
     '/api/*': '/$1',
-    
-}))
+    '/proyectos': '/proyectos',
+    '/proyectos/:proyectoId/bolsillos': '/bolsillos?id_proyecto=:proyectoId',
+    '/proyectos/:proyectoId/bolsillos/:bolsilloId/referencias': '/referencias?id_bolsillo=:bolsilloId'
+}));
+
+
 server.use(router)
 server.listen(3000, () => {
     console.log('JSON Server is running')
