@@ -16,7 +16,6 @@ server.use(middlewares)
 
 server.use(jsonServer.rewriter({
     '/api/*': '/$1',
-    '/proyectos': '/proyectos',
     '/proyectos/:proyectoId/bolsillos': '/bolsillos?id_proyecto=:proyectoId',
     '/proyectos/:proyectoId/bolsillos/:bolsilloId/referencias': '/referencias?id_bolsillo=:bolsilloId'
 }));
